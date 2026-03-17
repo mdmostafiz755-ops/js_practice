@@ -1,0 +1,10 @@
+const today= new Date();
+console.log(today);
+const sDate= new Date('2050-8-01');
+console.log(sDate.getMonth());
+console.log(sDate.getDay());
+const spDate= new Date(2091,0,26);
+console.log(spDate);
+spDate.setMonth(10);
+console.log(spDate);
+console.log(spDate.toLocaleString('en-GB'));
